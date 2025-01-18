@@ -24,15 +24,16 @@ local redzlib = {
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 120, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(4, 170, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(4, 120, 0))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
-			["Color Stroke"] = Color3.fromRGB(65, 65, 65),
-			["Color Theme"] = Color3.fromRGB(65, 150, 255),
-			["Color Text"] = Color3.fromRGB(245, 245, 245),
+   				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 180, 0)),
+  			  	ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 220, 0)),
+ 	   			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 180, 0))
+		}),
+			["Color Hub 2"] = Color3.fromRGB(0, 100, 0),
+			["Color Stroke"] = Color3.fromRGB(0, 140, 0),
+			["Color Theme"] = Color3.fromRGB(0, 200, 0),
+			["Color Text"] = Color3.fromRGB(255, 255, 255),
 			["Color Dark Text"] = Color3.fromRGB(190, 190, 190)
+
 		},
 		Purple = {
 			["Color Hub 1"] = ColorSequence.new({
